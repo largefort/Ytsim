@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+#container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #c4302b;
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #c4302b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#stats {
+    margin-top: 20px;
+}
+
+#subscribers, #videoCount, #earnings {
+    font-size: 18px;
+    color: #555;
+}
+
+#upgrade-btn, #auto-upload-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#auto-upload-btn:disabled {
+    background-color: #2196F3;
+    cursor: not-allowed;
+}
